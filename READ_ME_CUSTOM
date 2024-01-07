@@ -1,5 +1,62 @@
 To create react application in your local machine:
 npx create-react-app project-name
 
-cd my-app npm start
+cd my-app 
+run -> npm start
 
+
+it will give you boiler plate code 
+
+
+many ways to create a react application 
+
+1.Webpack (longer process)
+npm init    
+    package.json
+
+2.npx create-react-app my-app (recommended way)
+
+npm run test
+to validate your test suite
+
+npm run build
+to build your application, it will gendrate a dist folder (Production code)
+
+
+offical React documentation:
+https://react.dev/learn/start-a-new-react-project
+
+1.How to create a react application
+2.Folder structure
+3.Node modules usage and libraries
+4.Component
+    1.Class based component - stateful, 16.7 class only
+    2.Functional based component stateless, dump 16.8 >
+
+5.JSX
+    Javascript extension
+
+6.props
+
+7.setState method()
+8.States ->
+     Class component, 
+        this.state = {
+
+        }
+
+        to update the state in class component
+            setState()
+     functional component 
+
+        useState() => Hooks
+            const [name, setName] = useState(initial value)
+             to update the state in functional component
+
+                setName("")
+
+9.Events 
+    onClick
+
+10.Hook introduction
+    useState()                
