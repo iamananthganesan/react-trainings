@@ -1,0 +1,5 @@
+To create react application in your local machine:
+npx create-react-app project-name
+
+cd my-app npm start
+
