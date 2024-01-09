@@ -60,3 +60,27 @@ https://react.dev/learn/start-a-new-react-project
 
 10.Hook introduction
     useState()                
+
+01/09/2024
+
+-> VsCode extensions ES7+ React/Redux/React-Native snippets  v4.4.3 
+-> Event Handlers in class/functional component (onClick, onChange)
+-> Different approachs to write event handlers in class component
+-> Method As props (Passing data from child to parent component)
+
+Upcoming topics to cover
+
+-> Conditional Rendering
+-> List Rendering
+-> Lists and Keys
+-> Styles in React
+-> Form Handling
+-> Lifecycle Hooks
+    Mouting        
+    Updating
+    Unmouting
+->Fragments
+->Pure Component
+->Memo
+    
+

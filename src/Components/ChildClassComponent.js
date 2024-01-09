@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 class ChildClassComponent extends Component {
     constructor(){
         super()
-
         this.state = {
             address: 'chennai, Tn, India'
         }

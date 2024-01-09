@@ -1,13 +1,22 @@
 import './App.css';
-import ParentClassComponent from './Components/ParentClassComponent'
-import ParentFunctionalComponent from './Components/ParentFunctionalComponent';
+// import EventsInClassComponent from './Components/Events/EventsInClassComponent';
+// import EventsInFunctionalComp from './Components/Events/EventsInFunctionalComp';
+import MethodAsPropsParent from './Components/MethodAsProps/MethodAsPropsParent';
+// import ParentClassComponent from './Components/ParentClassComponent'
+// import ParentFunctionalComponent from './Components/ParentFunctionalComponent';
 
 function App() {
   return (
-    <div className="App">       
+    <div className="App">
       {/* <ClassComponent/> */}
-      <ParentClassComponent greetingMessage="Welcome"/>
-      <ParentFunctionalComponent/>
+      {/* 01/07/2024 */}
+      {/* <ParentClassComponent greetingMessage="Welcome"/>
+      <ParentFunctionalComponent/> */}
+      {/* 01/09/2024 */}
+      {/* <EventsInClassComponent/> */}
+      {/* <EventsInFunctionalComp/> */}
+
+      <MethodAsPropsParent/>
     </div>
   );
 }
