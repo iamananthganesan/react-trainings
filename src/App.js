@@ -1,4 +1,8 @@
 import './App.css';
+import ConditionalRendering from './Components/ConditionalRendering/ConditionRendering';
+import LoginForm from './Components/FormHandling/LoginForm';
+import ListRendering from './Components/ListRendering/ListRendering';
+import ListRenderingFunctionalComponent from './Components/ListRendering/ListRenderingFunctionalComponent';
 // import EventsInClassComponent from './Components/Events/EventsInClassComponent';
 // import EventsInFunctionalComp from './Components/Events/EventsInFunctionalComp';
 import MethodAsPropsParent from './Components/MethodAsProps/MethodAsPropsParent';
@@ -16,7 +20,14 @@ function App() {
       {/* <EventsInClassComponent/> */}
       {/* <EventsInFunctionalComp/> */}
 
-      <MethodAsPropsParent/>
+      {/* <MethodAsPropsParent/> */}
+
+      {/* <ConditionalRendering/> */}
+
+      {/* <ListRendering/> */}
+      {/* <ListRenderingFunctionalComponent/> */}
+
+      <LoginForm/>
     </div>
   );
 }

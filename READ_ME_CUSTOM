@@ -1,9 +1,16 @@
 To create react application in your local machine:
-npx create-react-app project-name
+1.npx create-react-app project-name
 
 cd my-app 
 run -> npm start
 
+2.npm create vite@latest (Angular, React, Vue)
+
+React 
+
+Project name
+
+3.webpack
 
 it will give you boiler plate code 
 
@@ -33,16 +40,26 @@ https://react.dev/learn/start-a-new-react-project
     1.Class based component - stateful, 16.7 class only
     2.Functional based component stateless, dump 16.8 >
 
+    current version 18.2
+
 5.JSX
     Javascript extension
 
 6.props
 
-7.setState method()
+7.setState method() -> class component 
+    functional component 
+        const [name, setName] = useState('Kholi')
+        setName('Virat Kholi')
+
+        {name}
+
 8.States ->
      Class component, 
         this.state = {
+            interests: [
 
+            ]
         }
 
         to update the state in class component
@@ -57,8 +74,12 @@ https://react.dev/learn/start-a-new-react-project
 
 9.Events 
     onClick
+    OnChange
+    OnMouseOver
+    OnMouseIn
+    OnSubmit
 
-10.Hook introduction
+10.Hook introduction 
     useState()                
 
 01/09/2024
@@ -74,13 +95,66 @@ Upcoming topics to cover
 -> List Rendering
 -> Lists and Keys
 -> Styles in React
+    MUI
+    chakra ui
 -> Form Handling
+->Fragments Completed
+
+
 -> Lifecycle Hooks
-    Mouting        
-    Updating
-    Unmouting
-->Fragments
-->Pure Component
-->Memo
-    
+    Mouting  Component creation phase   
+    componentDidMount(){
+        
+    }    
+    Updating Component Updation phase
+    componentDidUpdate(){
+        
+    }   
+    Unmouting Component destroy phase
+    componentWillUnmount(){
+            
+        }   
+->Pure Component -> Class component -> Avoid the re-rendering 
+->Memo ->  Functional component -> Avoid the re-rendering
+
+==
+
+->Refs
+->Portals
+->Error Boundary
+->HOC (Higher Order component)
+->Render props
+->Context
+->http -> axios for API integration
+
+
+Hooks
+    useState()
+    useEffect() => to create a side effect / Replacement for class component's life cycle nethod
+    useRef() -> to manipulate DOM
+    useMemo() -> memozatation
+    useCallback()
+    useContext() 
+    useReducer()- > State management
+    useId() -> to gendratge an uniquw id
+
+    Project 
+        Movie booking app 
+
+
+        Test Driven Development (TDD)
+            T -> unit testing 90 -95% test coverage for all the spec files
+                it('login page verivifation',()=>{
+                    tobe()
+                })
+            D -> Devlopment
+                <form onSubmit={submitHandler}>
+                    <input type="text" value={this.state.username} placeholder="username" />
+                    <input type="password" value={this.state.password} placeholder="password" />
+                    <button>Submit</button>
+                </form>
+            T -> Test
+
+            
+            After deployment in dev/enviorment
 
