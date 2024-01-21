@@ -33,7 +33,7 @@ form{
     display: inline;
 }
 
-button{
+.login-button{
     width: 100%;
     outline: none;
     background-color: lightseagreen;

@@ -125,7 +125,11 @@ Upcoming topics to cover
 ->HOC (Higher Order component)
 ->Render props
 ->Context
-->http -> axios for API integration
+->http -> axios for API integration.
+    npm install axios
+    https://jsonplaceholder.typicode.com/
+
+    https://fakestoreapi.com/
 
 
 Hooks

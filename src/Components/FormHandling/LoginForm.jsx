@@ -54,7 +54,7 @@ const LoginForm = () =>{
                     <label htmlFor="useracceptsterms">I have read the teams and conditions</label>
                 </div>
                 <div className="form-control">
-                    <button disabled={!terms} type="submit">Login</button>
+                    <button className="login-button" disabled={!terms} type="submit">Login</button>
                 </div>
             </form>
         </div>
